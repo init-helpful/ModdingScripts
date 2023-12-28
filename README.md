@@ -1,6 +1,4 @@
-# Python Download and Unzip Script
-
-## Introduction
+## BatchModDownloader
 This Python script is designed to automatically download and optionally unzip files from a list of URLs. The script reads a configuration file (`config.json`) to get the list of URLs and other settings, then performs the download and unzipping tasks asynchronously. It's particularly useful for batch downloading and extracting zip files from various sources.
 
 ## Requirements
