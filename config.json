@@ -1,1 +1,7 @@
-{"zip_name_regex": "resources/(.*?)\\.", "zipped_path": "./zipped", "unzipped_path": "./unzipped", "urls": []}
+{
+  "zip_name_regex": "resources/(.*?)\\.",
+  "zipped_path": "./zipped",
+  "unzipped_path": "./unzipped",
+  "urls": [
+  ]
+}
