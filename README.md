@@ -1,32 +1,14 @@
 ## BatchModDownloader
 This Python script is designed to automatically download and optionally unzip files from a list of URLs. The script reads a configuration file (`config.json`) to get the list of URLs and other settings, then performs the download and unzipping tasks asynchronously. It's particularly useful for batch downloading and extracting zip files from various sources.
 
-## Requirements
-- Python 3.6 or higher
-- aiohttp
-- asyncio
-
 ### Releases
 For users who prefer not to run the script from source, there is an executable version available in the [Releases](https://github.com/init-helpful/ModdingScripts/releases) section of this repository. This executable is packaged with all necessary dependencies and can be run directly without setting up a Python environment.
 
-### Run Python Script Locally
+## Requirements
+- Python 3.6 or higher
+- [aiohttp](https://pypi.org/project/aiohttp/)
+- [asyncio](https://pypi.org/project/asyncio/)
 
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/init-helpful/ModdingScripts.git
-   cd ModdingScripts
-   ```
-
-2. Set up a Virtual Environment (Optional but recommended)
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # For Unix or MacOS
-   venv\Scripts\activate  # For Windows
-   ```
-3. Install Dependencies
-    ```bash
-    pip install -r requirements.txt
-    ```
  
 ## Config File Properties
 Edit the `config.json` file to specify the URLs, the regular expression for parsing the URLs, and paths for saving zipped and unzipped files.
