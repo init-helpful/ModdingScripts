@@ -9,7 +9,7 @@ default_config = {
     "zip_name_regex": "resources/(.*?)\\.",
     "zipped_path": "./zipped",
     "unzipped_path": "./unzipped",
-    "urls": []
+    "urls": [],
 }
 
 
@@ -49,7 +49,7 @@ async def download_and_maybe_unzip(
         return
 
     headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3"
+        "User-Agent": "Mozilla/5.0 (compatible; MyScript/1.0; +https://mysite.com)"
     }
 
     print(f"Downloading...: {os.path.basename(local_filename)}")
