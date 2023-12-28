@@ -6,7 +6,10 @@ This Python script is designed to automatically download and optionally unzip fi
 - aiohttp
 - asyncio
 
-## Installation
+### Releases
+For users who prefer not to run the script from source, there is an executable version available in the [Releases](https://github.com/init-helpful/ModdingScripts/releases) section of this repository. This executable is packaged with all necessary dependencies and can be run directly without setting up a Python environment.
+
+### Run Python Script Locally
 
 1. **Clone the Repository**
    ```bash
